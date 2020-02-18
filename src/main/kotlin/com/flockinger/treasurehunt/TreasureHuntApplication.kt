@@ -16,8 +16,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
         )
 )
 @SpringBootApplication
-class TreasureHuntApplication {
+object TreasureHuntApplication {
 
+    @JvmStatic
     fun main(args: Array<String>) {
         Micronaut.build()
                 .packages("mvkot.test")
